@@ -64,7 +64,7 @@ nav li a:hover {
     margin-top: 50px;
 }
 
-.logo h1 {
+.logo-text h1 {
     font-family: 'raleway', sans-serif;
     font-size: 3em;
     color: #007bff;
@@ -75,7 +75,7 @@ nav li a:hover {
     margin-top: 80px;
 }
 
-.content h2 {
+.subheading h2 {
     font-family: 'cooper hewitt', sans-serif;
     font-size: 4em;
     color: black;
