@@ -1,17 +1,20 @@
+/* Import Google Fonts - Including Raleway (as requested) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Libre+Franklin&family=Playfair+Display&display=swap');
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* Using Open Sans for the main body text */
+    font-family: 'Open Sans', sans-serif; 
     background-color: #f0f0f0;
     color: #333;
 }
-    body {
-    background-image: a bunch of people exercising (7).jpg;
+
+body {
+    background-image: url('a bunch of people exercising (7).jpg'); /* Corrected: Use url() */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 .container {
     width: 100%;
@@ -65,18 +68,24 @@ nav li a:hover {
 }
 
 .logo h1 {
-    font-family: 'raleway', sans-serif;
+    /* Using Raleway for the logo */
+    font-family: 'Raleway', sans-serif;
     font-size: 3em;
     color: #007bff;
 }
 
-.subheading {
+.content {
     text-align: left;
     margin-top: 80px;
 }
 
 .subheading h2 {
-    font-family: 'cooper hewitt', sans-serif;
+    /* Using Playfair Display as a substitute for Bauer Bodoni */
+    font-family: 'Playfair Display', serif;
     font-size: 4em;
     color: black;
 }
+Sent
+Write to
+
+
