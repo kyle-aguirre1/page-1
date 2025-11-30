@@ -28,40 +28,48 @@ header {
     color: #d9d9d9;
     padding: 10px 20px;
 }
-
-.top-nav {
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.8em; /* Smaller font size */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.8em;
 }
 
-.top-nav a {
-    color: #d9d9d9;
+.left-cta a {
+    color: #fff;
     text-decoration: none;
-    margin-left: 15px;
+}
+
+.right-auth a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.free-trial-btn {
+    background-color: #007bff; /* Example: a bright color */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav {
+    padding: 10px 20px;
 }
 
 nav ul {
-    color:#d9d9d9;
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-start;
 }
 
 nav li a {
-    color: #d9d9d9;
+    color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-}
-
-nav li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
+    margin-right: 20px;
 .logo {
     text-align: left;
     margin-top: 50px;
@@ -69,7 +77,7 @@ nav li a:hover {
 
 
 .raleway.logo h1 {
-  color: #d9d9d9:
+  color: light gray;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -96,7 +104,6 @@ nav li a:hover {
 
 
     
-Sent
-Write to
+
 
 
