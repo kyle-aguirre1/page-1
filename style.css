@@ -26,7 +26,7 @@ body {
 
 header {
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: #d9d9d9;
     padding: 10px 20px;
 }
 
@@ -38,12 +38,13 @@ header {
 }
 
 .top-nav a {
-    color: white;
+    color: #d9d9d9;
     text-decoration: none;
     margin-left: 15px;
 }
 
 nav ul {
+    color:#d9d9d9;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -52,7 +53,7 @@ nav ul {
 }
 
 nav li a {
-    color: white;
+    color: #d9d9d9;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -69,9 +70,10 @@ nav li a:hover {
 
 .logo h1 {
     /* Using Raleway for the logo */
+    color:#d9d9d9;
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
-    color: #007bff;
+    
 }
 
 .content {
@@ -81,10 +83,14 @@ nav li a:hover {
 
 .subheading h2 {
     /* Using Playfair Display as a substitute for Bauer Bodoni */
+    color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 4em;
-    color: black;
+   
 }
+
+
+    
 Sent
 Write to
 
