@@ -1,5 +1,4 @@
-/* Import Google Fonts - Including Raleway (as requested) */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Libre+Franklin&family=Playfair+Display&display=swap');
+
 
 body {
     margin: 0;
@@ -69,10 +68,10 @@ nav li a:hover {
 }
 
 
-.raleway-logo h1 {
+.raleway.logo h1 {
+  color: #d9d9d9:
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-size: 2.5em;
   position: absolute;
