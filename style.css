@@ -4,14 +4,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    height: 100vh; /* Ensure full viewport height */
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    height: 100vh; 
+    overflow-x: hidden; 
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
 body::before {
     content: "";
-    position: fixed; /* Fixed position to cover the entire viewport */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -20,7 +19,7 @@ body::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; /* Place behind other content */
+    z-index: -1; 
 }
 
 .container {
