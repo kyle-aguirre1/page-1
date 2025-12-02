@@ -102,24 +102,21 @@ nav li a:hover {
     color: white;
     
 }
+ .subheading {
+    position:absolute;
+    bottom: 20%;
+    left: 15%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+ }
 
-.subheading {
-    position: relative; /* Required for absolute positioning of h2 */
-    width: 100%;        /* Adjust as needed */
-    height: 100px;       /* Adjust as needed */
-    /* other styles like background-color, padding, etc. */
-}
+
 
 .subheading h2 {
-    position: absolute; /* Position relative to .subheading */
-    bottom: 10;          /* Stick to the bottom */
-    left: 25;
-    transform: translateX(5);
     font-family: 'Playfair Display', serif;
     font-size: 3.5em;
     color: white;
 }
- 
+
 
 
 
