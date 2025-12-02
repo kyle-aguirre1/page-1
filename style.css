@@ -8,6 +8,7 @@ body {
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+@media screen and (min-width: 480px) and (max-width: 1200px) {
 body::before {
     content: "";
     position: fixed; /* Fixed position to cover the entire viewport */
