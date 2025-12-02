@@ -102,16 +102,19 @@ nav li a:hover {
     color: white;
     
 }
+.subheading {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
 
 
 .subheading h2 {
-    position: absolute;
-    left: 10px;
-    bottom: 40px;
     font-family: 'Playfair Display', serif;
     font-size: 3.5em;
     color: white;
 }
+
 
 
 
