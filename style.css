@@ -104,9 +104,8 @@ nav li a:hover {
 }
  .subheading {
     position:absolute;
-    bottom: 20%;
-    left: 15%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    bottom: 8%;
+    left: 5%;
  }
 
 
@@ -116,6 +115,8 @@ nav li a:hover {
     font-size: 3.5em;
     color: white;
 }
+
+
 
 
 
