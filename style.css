@@ -69,7 +69,7 @@ nav li a:hover {
    nav ul {
         list-style: none;
         flex-direction: row;
-        align-items:flex-start;
+        align-items: center;
     }
 
     nav li a {
@@ -105,10 +105,16 @@ nav li a:hover {
 
 
 .subheading h2 {
+    margin-bottom: 30px;
     font-family: 'Playfair Display', serif;
     font-size: 3.5em;
     color: white;
 }
+    
+ 
+
+
+
     
  
 
