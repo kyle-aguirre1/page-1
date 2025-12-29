@@ -1,8 +1,4 @@
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -39,7 +35,7 @@ header {
     color: white;
     padding: 10px 20px;
 }
-@media (min-width: 480px) {
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -59,7 +55,7 @@ nav ul {
     display: flex;
     justify-content: flex-start;
 }
-@media (min-width: 768px) {
+
 nav li a {
     color: white;
     text-decoration: none;
@@ -92,7 +88,7 @@ nav li a:hover {
 
 
 
-   @media (min-width: 1024px) {
+  
 .logo {
     text-align: left;
     margin-top: 40px;
