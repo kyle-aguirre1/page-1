@@ -117,20 +117,7 @@ nav li a:hover {
 }
 
 
-@media screen and (max-width: 480px) {
-     .top-nav span.left {
-         font-size: 0.75em; /* Even smaller promo text */
-     }
-     .logo h1 {
-         font-size: 1.3em; /* Tighter logo size */
-     }
-     .subheading h2 {
-         font-size: 1.4em; /* Tighter subheading size */
-     }
-     header {
-         padding: 6px 10px; /* More compact header */
-     }
- }
+
 
 
     
