@@ -117,7 +117,8 @@ nav li a:hover {
 }
 
 
-top-nav span.left {
+@media screen and (max-width: 480px) {
+     .top-nav span.left {
          font-size: 0.75em; /* Even smaller promo text */
      }
      .logo h1 {
@@ -130,8 +131,6 @@ top-nav span.left {
          padding: 6px 10px; /* More compact header */
      }
  }
-
-
 
 
     
