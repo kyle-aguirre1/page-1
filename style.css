@@ -117,7 +117,234 @@ nav li a:hover {
 }
 
 
+/* Global Resets & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    line-height: 1.6;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: #e0e0e0;
+    padding: 1rem 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: #444;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #f0f0f0;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hero-text {
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.hero-image {
+    flex: 1 1 300px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Subscription Section */
+.subscription-section {
+    padding: 3rem 5%;
+    text-align: center;
+    background: linear-gradient(rgba(255,255,255,0.😎, rgba(255,255,255,0.8)), 
+                url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+}
+
+.subscription-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.plan-card {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1 1 200px;
+    max-width: 250px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.plan-badge {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+.hot-badge {
+    background-color: #DB4437;
+}
+
+.best-badge {
+    background-color: #0F9D58;
+}
+
+.plan-card h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.duration {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.buy-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #444;
+}
+
+
+/* About Section (Placeholder) */
+.about-section {
+    padding: 2rem 5%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar ul {
+        gap: 2rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text ul {
+        list-style-position: inside;
+        padding-left: 0;
+    }
+
+    .subscription-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .plan-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .subscription-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size: 1.5rem;
+    }
+}
 
 
     
