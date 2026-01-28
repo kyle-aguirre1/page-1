@@ -135,8 +135,10 @@ nav li a:hover {
 
 /* Navbar (Centered, no background, black text) */
 .main-navbar {
+    width: 100%
     text-align: center;
     margin-bottom: 0.5rem;
+    padding: 1rem 0
 }
 
 .main-navbar ul {
@@ -145,7 +147,7 @@ nav li a:hover {
 
 .main-navbar li {
     display: inline-block;
-    margin: 0 2.5rem; /* Spacing between links as in pic */
+    margin: 0 1.5rem; /* Spacing between links as in pic */
 }
 
 .main-navbar a {
