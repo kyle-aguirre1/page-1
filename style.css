@@ -210,12 +210,14 @@ nav li a:hover {
 .subscription-section {
     padding: 3rem 5%;
     text-align: center;
-    background: url ('../images/a-bunch-of-people-exercising-10.jpg') center/cover no-repeat;
+    background: url('../images/a-bunch-of-people-exercising-10.jpg') center/cover no-repeat;
+    min-height: 400px;
 }
 
 .subscription-section h2 {
     font-size: 2.2rem;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .plans-container {
