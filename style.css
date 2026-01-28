@@ -129,7 +129,7 @@ nav li a:hover {
 
 /* Hero Section (Matches light background in pic) */
 .hero-section {
-    background-color: #b9b1b1; /* Exact light gray from pic */
+    background-color: #f5f5f5; /* Exact light gray from pic */
     padding: 1rem 1.5rem;
 }
 
