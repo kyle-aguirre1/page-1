@@ -209,7 +209,7 @@ nav li a:hover {
 .subscription-section {
     padding: 3rem 5%;
     text-align: center;
-    background: url() center/cover no-repeat;
+  background: url('../images/a-bunch-of-people-exercising-10.jpg') center/cover no-repeat;
 }
 
 .subscription-section h2 {
