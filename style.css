@@ -135,7 +135,7 @@ nav li a:hover {
 
 /* Navbar (Centered, no background, black text) */
 .main-navbar {
-    text-align: center;
+    justify-content: center;
     margin-bottom: 0.5rem;
 
 }
@@ -153,7 +153,7 @@ nav li a:hover {
     color: #000; /* Black text */
     text-decoration: none; /* No underline */
     font-size: 1.2rem;
-    justify-content: center;
+  
 }
 
 /* Main Heading (Two lines, centered) */
