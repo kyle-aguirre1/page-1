@@ -137,7 +137,7 @@ nav li a:hover {
 .main-navbar {
     width: 100%
     text-align: center;
-    margin: 0;
+    margin-bottom: 0-5rem;
     padding: 1rem 0
 }
 
