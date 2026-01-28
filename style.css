@@ -124,7 +124,7 @@ nav li a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Hero Section (Matches light background in pic) */
@@ -137,7 +137,6 @@ nav li a:hover {
 .main-navbar {
     text-align: center;
     margin-bottom: 0.5rem;
-
 }
 
 .main-navbar ul {
@@ -146,14 +145,13 @@ nav li a:hover {
 
 .main-navbar li {
     display: inline-block;
-    margin: 0 2.2rem; /* Spacing between links as in pic */
+    margin: 0 2.5rem; /* Spacing between links as in pic */
 }
 
 .main-navbar a {
     color: #000; /* Black text */
     text-decoration: none; /* No underline */
-    font-size: 1.2rem;
-  
+    font-size: 1.1rem;
 }
 
 /* Main Heading (Two lines, centered) */
@@ -203,6 +201,7 @@ nav li a:hover {
     height: auto;
     display: block;
     
+    
 }
 
 
@@ -210,14 +209,13 @@ nav li a:hover {
 .subscription-section {
     padding: 3rem 5%;
     text-align: center;
-    background: url('../images/a-bunch-of-people-exercising-10.jpg') center/cover no-repeat;
-    min-height: 400px;
+    background: url() center/cover no-repeat;
 }
 
 .subscription-section h2 {
     font-size: 2.2rem;
     margin-bottom: 3rem;
-    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .plans-container {
@@ -228,7 +226,7 @@ nav li a:hover {
 }
 
 .plan-card {
-    background-color: #fff;
+    background-color: #b9b1b1;
     border: 2px solid #000;
     border-radius: 8px;
     padding: 1.5rem;
@@ -354,9 +352,6 @@ nav li a:hover {
 
     
  
-
-
-
     
 
 
