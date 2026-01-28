@@ -135,10 +135,9 @@ nav li a:hover {
 
 /* Navbar (Centered, no background, black text) */
 .main-navbar {
-    display: flex;
     text-align: center;
     margin-bottom: 0.5rem;
-    justify-content: center;
+
 }
 
 .main-navbar ul {
@@ -147,13 +146,14 @@ nav li a:hover {
 
 .main-navbar li {
     display: inline-block;
-    margin: 0 2.5rem; /* Spacing between links as in pic */
+    margin: 0 2.2rem; /* Spacing between links as in pic */
 }
 
 .main-navbar a {
     color: #000; /* Black text */
     text-decoration: none; /* No underline */
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    justify-content: center;
 }
 
 /* Main Heading (Two lines, centered) */
