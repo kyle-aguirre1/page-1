@@ -124,12 +124,12 @@ nav li a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Hero Section (Matches light background in pic) */
 .hero-section {
-    background-color: #f5f5f5; /* Exact light gray from pic */
+    background-color: #b9b1b1; /* Exact light gray from pic */
     padding: 1rem 1.5rem;
 }
 
@@ -208,7 +208,7 @@ nav li a:hover {
 .subscription-section {
     padding: 3rem 5%;
     text-align: center;
-    background: url ('images/a bunch of people exercising (10).jpg') center/cover no-repeat;
+    background: url ('../images/a bunch of people exercising (10).jpg') center/cover no-repeat;
 }
 
 .subscription-section h2 {
