@@ -219,7 +219,8 @@ nav li a:hover {
      padding: 3rem 5%;
     text-align: center;
     /* Use this line if your image is in the same folder as your CSS/HTML */
-    background: url('a-bunch-of-people-exercising-10.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+        url('a bunch of people exercising 10 (1).jpg') center/cover no-repeat;
     /* If your image is in a folder called "images", use this line instead: */
     /* background: url('images/a-bunch-of-people-exercising.jpg') center/cover no-repeat; */
 
