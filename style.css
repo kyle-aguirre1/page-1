@@ -6,6 +6,8 @@ body {
     color: #333;
     height: 100vh; 
     overflow-x: hidden;
+}
+body::before{
     content: "";
     position: fixed; 
     top: 0;
