@@ -7,7 +7,7 @@ body {
     height: 100vh; 
 
 }
-body::before {
+body:not(.page-1)::before {
     content: "";
     position: fixed; 
     top: 0;
