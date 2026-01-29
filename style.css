@@ -122,7 +122,7 @@ nav li a:hover {
 
 /* FOR SUBSCRIPTION.HTML*/
 
-/* Global Resets & Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -130,17 +130,13 @@ nav li a:hover {
     font-family: Arial, sans-serif;
 }
 
-/* Hero Section (Matches light background in pic) */
 .hero-section {
-    background-color: #f5f5f5; /* Exact light gray from pic */
+    background-color: #f5f5f5; 
     padding: 1rem 1.5rem;
-       /* This puts your photo ONLY on the hero section of Page 1 */
-    /* Optional: If text is hard to read, add this line to make it darker behind text */
-    /* background-color: rgba(0,0,0,0.3); */
-}
+  
 }
 
-/* Navbar (Centered, no background, black text) */
+
 .main-navbar {
     width: 100%
     text-align: center;
@@ -154,16 +150,16 @@ nav li a:hover {
 
 .main-navbar li {
     display: inline-block;
-    margin: 0 1.5rem; /* Spacing between links as in pic */
+    margin: 0 1.5rem; 
 }
 
 .main-navbar a {
-    color: #000; /* Black text */
-    text-decoration: none; /* No underline */
+    color: #000; 
+    text-decoration: none; 
     font-size: 1.1rem;
 }
 
-/* Main Heading (Two lines, centered) */
+
 .hero-section h1 {
     text-align: center;
     font-size: 2.2rem;
@@ -173,7 +169,7 @@ nav li a:hover {
     line-height: 1.4;
 }
 
-/* Hero Content (Text left, Image right, aligned as in pic) */
+
 .hero-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,11 +214,10 @@ nav li a:hover {
 .subscription-section {
      padding: 3rem 5%;
     text-align: center;
-    /* Use this line if your image is in the same folder as your CSS/HTML */
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+ 
+    background:, 
         url('a bunch of people exercising 10 (1).jpg') center/cover no-repeat;
-    /* If your image is in a folder called "images", use this line instead: */
-    /* background: url('images/a-bunch-of-people-exercising.jpg') center/cover no-repeat; */
+  
 
 }
 
@@ -303,7 +298,7 @@ nav li a:hover {
 }
 
 
-/* About Section (Placeholder) */
+
 .about-section {
     padding: 2rem 5%;
     background-color: #f0f0f0;
@@ -311,7 +306,7 @@ nav li a:hover {
 }
 
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     .navbar ul {
         gap: 2rem;
