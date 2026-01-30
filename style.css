@@ -7,7 +7,7 @@ body {
     height: 100vh; 
 
 }
-body::after {
+body:: {
     content: "";
     position: fixed; 
     top: 0;
