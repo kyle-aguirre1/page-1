@@ -216,10 +216,13 @@ nav li a:hover {
 .subscription-page {
  
     background-image: url('a bunch of people exercising (10) (1).jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
 }
   .subscription-page::before {
      content: "";
@@ -228,10 +231,9 @@ nav li a:hover {
      left: 0;
      width: 100%;
      height: 100%;
-     background-color: rgba(0, 0, 0, 0.5); /* Slightly lighter than home if image is brighter */
+     background-color: rgba(0, 0, 0, 0.0); /* Slightly lighter than home if image is brighter */
      z-index: 0;
-          padding: 3rem 5%;
-    text-align: center; 
+       
 }
 
 .subscription-section h2 {
