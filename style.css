@@ -214,7 +214,7 @@ nav li a:hover {
 
 /* Subscription Section */
 .subscription-page {
-    background-image: url('a bunch of people exercising (10) (1).jpg');
+    background-image: url('a bunch of people exercising (12).jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ nav li a:hover {
 
 .subscription-section h2 {
     text-align: center;
-    color: #000000;
+    color: #F0F0F0;
     font-size: 2.2rem;
     margin-bottom: 3rem;
     font-family: 'Open Sans', sans-serif;
