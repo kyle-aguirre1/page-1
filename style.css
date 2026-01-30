@@ -214,29 +214,27 @@ nav li a:hover {
 
 /* Subscription Section */
 .subscription-page {
- 
     background-image: url('a bunch of people exercising (12).jpg');
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     min-height: 1012px;
     margin: 0;
     color: #333;
-  
- 
-    
+    /* Add z-index to ensure container is above pseudo-element if needed */
+    z-index: 1;
 }
-  .subscription-page::before {
-     content: "";
-     position: relative;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background-color: rgba(0, 0, 0, 0.0); /* Slightly lighter than home if image is brighter */
-     z-index: -1;
-       
+
+.subscription-page::before {
+    content: "";
+    position: absolute; /* Changed from relative to absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed (0.0 = fully transparent) */
+    z-index: -1; /* Places overlay behind the content of .subscription-page */
 }
 
 .subscription-section h2 {
