@@ -220,7 +220,6 @@ nav li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 100vh;
     margin: 0;
     color: #333;
  
