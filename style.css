@@ -7,9 +7,8 @@ body {
     height: 100vh; 
 
 }
-body:: {
+.home-page {
     content: "";
-    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -18,7 +17,7 @@ body:: {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; 
+
 
 }
 
@@ -211,10 +210,9 @@ nav li a:hover {
 
 
 /* Subscription Section */
-.subscription-section {
+.subscription-page {
      padding: 3rem 5%;
     text-align: center;
- 
     background:, 
         url('a bunch of people exercising 10 (1).jpg') center/cover no-repeat;
   
