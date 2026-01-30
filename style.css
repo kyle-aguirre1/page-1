@@ -215,11 +215,12 @@ nav li a:hover {
 /* Subscription Section */
 .subscription-page {
  
-    background-image: url('a bunch of people exercising (11).jpg');
+    background-image: url('a bunch of people exercising (12).jpg');
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
     position: relative;
+    min-height: 1012px;
     margin: 0;
     color: #333;
   
