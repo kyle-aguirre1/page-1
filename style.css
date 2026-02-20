@@ -27,7 +27,7 @@ body {
 }
 
 
-.container {
+home-page .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -36,40 +36,40 @@ body {
     
 }
 
-header {
+home-page header {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px 20px;
 }
 
-.top-nav {
+home-page .top-nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 1.2em;
 }
 
-.top-nav a {
+home-page .top-nav a {
     color: white;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav ul {
+home-page nav ul {
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: flex-start; 
 }
 
-nav li a {
+home-page nav li a {
     color: white;
     text-decoration: none;
     padding: 10px 15px; 
     display: block;
 }
     
-nav li a:hover {
+home-page nav li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -96,28 +96,28 @@ nav li a:hover {
 
 
   
-.logo {
+home-page .logo {
     text-align: left;
     margin-top: 40px;
     margin-left: 20px;
     color: white;
 }
 
-.logo h1 {
+home-page .logo h1 {
     
     font-family: 'Playfair Display', serif;
     font-size: 2.7em;
     color: white;
     
 }
-.subheading {
+home-page .subheading {
     position: absolute;
     left: 20px;
     bottom: 35px;
 }
 
 
-.subheading h2 {
+home-page .subheading h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3.5em;
     color: white;
