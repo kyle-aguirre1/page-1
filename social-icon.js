@@ -1,4 +1,4 @@
-// social-icons.js - Handles color styling for footer social media icons
+// social-icons.js 
 document.addEventListener('DOMContentLoaded', function() {
     // Target Facebook Icon
     const facebookIcon = document.querySelector('.fab.fa-facebook-f');
