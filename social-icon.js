@@ -1,28 +1,22 @@
-// social-icons.js
-document.addEventListener("DOMContentLoaded", function () {
-
-    // Facebook
-    const facebook = document.querySelector(".fa-facebook-f");
-    if (facebook) {
-        facebook.style.color = "#1877F2";
+// social-icons.js - Handles color styling for footer social media icons
+document.addEventListener('DOMContentLoaded', function() {
+    // Target Facebook Icon
+    const facebookIcon = document.querySelector('.fab.fa-facebook-f');
+    if (facebookIcon) {
+        facebookIcon.style.color = '#1877F2';
     }
 
-    // YouTube
-    const youtube = document.querySelector(".fa-youtube");
-    if (youtube) {
-        youtube.style.color = "#FF0000";
+    // Target Instagram Icon
+    const instagramIcon = document.querySelector('.fab.fa-instagram');
+    if (instagramIcon) {
+        instagramIcon.style.background = 'linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D)';
+        instagramIcon.style.webkitBackgroundClip = 'text';
+        instagramIcon.style.color = 'transparent';
     }
 
-    // Instagram (gradient needs special setup)
-    const instagram = document.querySelector(".fa-instagram");
-    if (instagram) {
-        instagram.style.display = "inline-block";
-        instagram.style.background = 
-            "linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D)";
-        instagram.style.webkitBackgroundClip = "text";
-        instagram.style.backgroundClip = "text";
-        instagram.style.webkitTextFillColor = "transparent";
-        instagram.style.color = "transparent";
+    // Target YouTube Icon
+    const youtubeIcon = document.querySelector('.fab.fa-youtube');
+    if (youtubeIcon) {
+        youtubeIcon.style.color = '#FF0000';
     }
-
 });
