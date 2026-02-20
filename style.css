@@ -64,10 +64,12 @@ header {
 }
 
 nav ul {
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: flex-start; 
+    align-items: center;
 }
 
 nav li a {
@@ -81,10 +83,6 @@ nav li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-   nav ul {
-        list-style: none; 
-        flex-direction: row;
-        align-items: center;
     }
 
     nav li a {
@@ -132,7 +130,7 @@ nav li a:hover {
 /* FOR SUBSCRIPTION.HTML*/
 
 
-* {
+.subscription-page * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -191,6 +189,10 @@ nav li a:hover {
     text-align: left;
 }
 
+.hero-text li {
+    margin-bottom: 1rem;
+}
+
 .hero-text h2 {
     font-size: 2.0rem;
     font-family: 'Open Sans', sans-serif;
@@ -218,8 +220,6 @@ nav li a:hover {
     
 }
 
-
-/* Subscription Section */
 .subscription-page {
     background-image: url('a bunch of people exercising (12).jpg');
     background-size: cover;
@@ -229,8 +229,7 @@ nav li a:hover {
     min-height: 1012px;
     margin: 0;
     color: #333;
-    font-family: 'Open Sans', sans-serif;
-   
+    font-family: 'Open Sans', sans-serif;   
     z-index: 1;
 }
 
@@ -242,7 +241,7 @@ nav li a:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3); 
-    z-index: -1; 
+    z-index: 1; 
 }
 
 .subscription-section h2 {
@@ -385,9 +384,8 @@ nav li a:hover {
 }
 
 
-        /* --
-PAGE 3: CSS
---- */
+/* PAGE 3: CSS*/
+
 .customize-page {
     margin: 0;
     padding: 0;
