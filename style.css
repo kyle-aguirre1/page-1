@@ -35,10 +35,12 @@ body {
 
 .container {
     width: 100%;
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
+    min-height: 100vh;
     
 }
 
